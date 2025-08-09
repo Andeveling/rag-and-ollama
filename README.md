@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 # 🏥 WhatsApp RAG Bot - Laboratorio Domiciliario Buga
 
 Bot inteligente de WhatsApp para agendamiento de citas de laboratorio domiciliario en Buga, Colombia, potenciado por tecnología RAG (Retrieval Augmented Generation).
@@ -181,4 +178,3 @@ El proyecto sigue el plan de implementación detallado en `/plan/feature-whatsap
 ## 📄 Licencia
 
 ISC License
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

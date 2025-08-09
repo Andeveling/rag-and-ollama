@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 # 🧪 Marcela Salazar - Bot WhatsApp RAG
 
 Sistema inteligente de agendamiento de citas para análisis clínicos a domicilio en Buga, Colombia, potenciado por RAG (Retrieval Augmented Generation) con ChromaDB y Ollama.
@@ -307,4 +304,3 @@ Proyecto desarrollado para Marcela Salazar - Todos los derechos reservados.
 **🧪 Última actualización**: Enero 2025
 
 Para soporte técnico o consultas: contactar al equipo de desarrollo.
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)
