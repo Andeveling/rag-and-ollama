@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import typescript from 'rollup-plugin-typescript2'
 
 export default {
@@ -14,4 +11,3 @@ export default {
     },
     plugins: [typescript()],
 }
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)
