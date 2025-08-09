@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { createBot, createProvider, createFlow, addKeyword, utils } from '@builderbot/bot';
 import { PostgreSQLAdapter as Database } from '@builderbot/database-postgres';
 import { BaileysProvider as Provider } from '@builderbot/provider-baileys';
@@ -254,4 +251,3 @@ main().catch(error => {
   console.error('💥 Fatal error starting bot:', error);
   process.exit(1);
 });
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

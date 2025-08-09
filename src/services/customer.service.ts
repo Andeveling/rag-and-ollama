@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { appointmentRepository } from '../repositories/appointment.repository.js';
 import { 
   Customer, 
@@ -455,4 +452,3 @@ export interface CustomerStats {
 
 // Export singleton instance
 export const customerService = new CustomerService();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

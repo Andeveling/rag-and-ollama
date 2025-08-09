@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { EVENTS, addKeyword } from '@builderbot/bot';
 import { BaileysProvider } from '@builderbot/provider-baileys';
 import { PostgreSQLAdapter } from '@builderbot/database-postgres';
@@ -80,4 +77,3 @@ export const cleanup = () => {
 
 // Export default idle timeout (2 minutes)
 export const DEFAULT_IDLE_TIMEOUT = 2 * 60 * 1000; // 2 minutes
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)
