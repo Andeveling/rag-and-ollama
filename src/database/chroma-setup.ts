@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { ChromaVectorStore } from "@llamaindex/chroma";
 import { Document, VectorStoreIndex, Settings, storageContextFromDefaults } from "llamaindex";
 import { Ollama } from "@llamaindex/ollama";
@@ -205,4 +202,3 @@ export class ChromaSetup {
 
 // Export singleton instance
 export const chromaSetup = new ChromaSetup();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

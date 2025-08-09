@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { Ollama } from "@llamaindex/ollama";
 import { OllamaEmbedding } from "@llamaindex/ollama";
 import { Settings } from "llamaindex";
@@ -152,4 +149,3 @@ export class OllamaService {
 
 // Export singleton instance
 export const ollamaService = new OllamaService();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { VectorStoreIndex, BaseQueryEngine } from "llamaindex";
 import { chromaSetup } from '../database/chroma-setup.js';
 import { ollamaService } from './ollama.service.js';
@@ -251,4 +248,3 @@ export class RagService {
 
 // Export singleton instance
 export const ragService = new RagService();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

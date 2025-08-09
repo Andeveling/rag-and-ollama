@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { addKeyword, EVENTS, utils } from '@builderbot/bot';
 import { BaileysProvider } from '@builderbot/provider-baileys';
 import { PostgreSQLAdapter } from '@builderbot/database-postgres';
@@ -568,4 +565,3 @@ let scheduleFlow: any;
 export function setScheduleFlow(flow: any) {
     scheduleFlow = flow;
 }
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)
