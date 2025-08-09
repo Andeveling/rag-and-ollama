@@ -1,15 +1,12 @@
-<<<<<<< HEAD
-<file upload>
-=======
-import { availabilityService } from './availability.service.js';
-import { customerService } from './customer.service.js';
-import { appointmentRepository } from '../repositories/appointment.repository.js';
+import { availabilityService } from './availability.service';
+import { customerService } from './customer.service';
+import { appointmentRepository } from '../repositories/appointment.repository';
 import { 
   Appointment, 
   Customer, 
   AppointmentStatus, 
   BUSINESS_RULES 
-} from '../models/appointment.model.js';
+} from '../models/appointment.model';
 
 /**
  * Notification service for appointment confirmations and reminders
@@ -451,4 +448,3 @@ export interface NotificationTemplates {
 
 // Export singleton instance
 export const notificationService = new NotificationService();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)
