@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 // bot.ts
 import { Ollama } from "@llamaindex/ollama";
 import { OllamaEmbedding } from "@llamaindex/ollama";
@@ -34,4 +31,3 @@ async function main() {
 }
 
 main();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

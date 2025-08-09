@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 -- PostgreSQL schema for WhatsApp RAG Bot - Home Laboratory Appointments
 -- Created: 2025-08-09
 
@@ -101,4 +98,3 @@ CREATE TRIGGER update_appointments_updated_at BEFORE UPDATE ON appointments
 
 CREATE TRIGGER update_system_config_updated_at BEFORE UPDATE ON system_config
     FOR EACH ROW EXECUTE FUNCTION update_updated_at_column();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)
