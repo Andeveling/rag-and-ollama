@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 # PRD: WhatsApp RAG Bot for Home Laboratory Appointments
 
 ## 1. Product overview
@@ -270,4 +267,3 @@ Customers discover the laboratory service through word-of-mouth or referrals and
   * Personal information is not shared with third parties
   * System maintains conversation history for appointment management
   * Data retention policies are enforced automatically
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

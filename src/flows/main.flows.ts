@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { addKeyword, EVENTS, utils } from '@builderbot/bot';
 import { BaileysProvider } from '@builderbot/provider-baileys';
 import { PostgreSQLAdapter } from '@builderbot/database-postgres';
-import { ragService } from '../services/rag.service.js';
-import { customerService } from '../services/customer.service.js';
-import { availabilityService } from '../services/availability.service.js';
-import { notificationService } from '../services/notification.service.js';
+import { ragService } from '../services/rag.service';
+import { customerService } from '../services/customer.service';
+import { availabilityService } from '../services/availability.service';
+import { notificationService } from '../services/notification.service';
 
 /**
  * Welcome flow - Entry point for all conversations
@@ -290,4 +287,3 @@ export const mainFlows = [
     idleFlow,
     errorFlow
 ];
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

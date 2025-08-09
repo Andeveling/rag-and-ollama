@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 # Image size ~ 400MB
 FROM node:21-alpine3.18 as builder
 
@@ -41,4 +38,3 @@ RUN npm cache clean --force && pnpm install --production --ignore-scripts \
     && rm -rf $PNPM_HOME/.npm $PNPM_HOME/.node-gyp
 
 CMD ["npm", "start"]
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

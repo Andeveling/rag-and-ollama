@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { Ollama } from "@llamaindex/ollama";
 import { OllamaEmbedding } from "@llamaindex/ollama";
 import { Document, VectorStoreIndex, Settings, storageContextFromDefaults } from "llamaindex";
@@ -38,4 +35,3 @@ async function setup() {
 }
 
 setup();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

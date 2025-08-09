@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { Pool, PoolClient } from 'pg';
 import { 
   Appointment, 
@@ -730,4 +727,3 @@ export class AppointmentRepository {
 
 // Export singleton instance
 export const appointmentRepository = new AppointmentRepository();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<file upload>
-=======
-import { appointmentRepository } from '../repositories/appointment.repository.js';
+import { appointmentRepository } from '../repositories/appointment.repository';
 import { 
   AppointmentSlot, 
   TimeSlot, 
@@ -378,4 +375,3 @@ export interface TimeUntilService {
 
 // Export singleton instance
 export const availabilityService = new AvailabilityService();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

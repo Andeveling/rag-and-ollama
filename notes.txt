@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 Citas en Buga perimetro urbano
 Entre las 5:30 am a 6:30 am
 Valor del domicilio todo incluido $20.000 COP Pesos Colombianos sencillos
@@ -8,4 +5,3 @@ Requisitos:
 - Si en los examines de laboratorio piden muestra de orina o material fecal esta debe estar tomada antes de la cita.
 - Estar en condiciones para la toma de muestras. Ejemplo: Último consumo de alimentos o bebidas según indicaciones medicas.
 - Confirmar cita antes de las 5:30 am antes de ir.
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

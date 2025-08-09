@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 /**
  * Data models for appointment management system
  * Defines TypeScript interfaces and enums for type safety
@@ -212,4 +209,3 @@ export class ConflictError extends AppointmentError {
     this.name = 'ConflictError';
   }
 }
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

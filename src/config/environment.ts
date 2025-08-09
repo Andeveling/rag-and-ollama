@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { config } from 'dotenv'
 import { resolve } from 'path'
 
@@ -164,4 +161,3 @@ export const {
   bot: botConfig,
   service: serviceConfig
 } = appConfig
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

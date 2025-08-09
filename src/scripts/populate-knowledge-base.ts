@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 #!/usr/bin/env tsx
 import { ragService } from '../services/rag.service.js';
 import { chromaSetup } from '../database/chroma-setup.js';
@@ -220,4 +217,3 @@ async function main() {
 if (import.meta.url === `file://${process.argv[1]}`) {
   main();
 }
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)
