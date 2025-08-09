@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { QueryIntent, ProcessedQueryResult } from './query-processor.js';
 
 /**
@@ -427,4 +424,3 @@ export interface ResponseQuality {
 
 // Export singleton instance
 export const responseProcessor = new ResponseProcessor();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

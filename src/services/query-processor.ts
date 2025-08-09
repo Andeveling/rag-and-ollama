@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 import { ragService } from './rag.service.js';
 
 /**
@@ -297,4 +294,3 @@ interface IntentPattern {
 
 // Export singleton instance
 export const queryProcessor = new QueryProcessor();
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

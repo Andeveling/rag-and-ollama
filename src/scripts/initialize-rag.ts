@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 #!/usr/bin/env tsx
 import { chromaSetup } from '../database/chroma-setup.js';
 import { ollamaService } from '../services/ollama.service.js';
@@ -128,4 +125,3 @@ async function performHealthCheck(): Promise<{ status: string; details: any }> {
 if (import.meta.url === `file://${process.argv[1]}`) {
   initializeRagSystem();
 }
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)
