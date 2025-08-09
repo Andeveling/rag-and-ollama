@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<file upload>
-=======
 /**
  * Marcela Salazar - WhatsApp Bot
  * 
@@ -19,4 +16,3 @@
 
 // Import the main bot initialization
 import './bot.js';
->>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)
