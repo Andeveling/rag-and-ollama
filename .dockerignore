@@ -1,1 +1,11 @@
+<<<<<<< HEAD
 <file upload>
+=======
+dist/*
+node_modules
+.env
+
+*_sessions
+*tokens
+.wwebjs*
+>>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

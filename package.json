@@ -1,1 +1,50 @@
+<<<<<<< HEAD
 <file upload>
+=======
+{
+  "name": "base-bailey-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "lint": "eslint . --no-ignore",
+    "dev": "npm run lint && nodemon ./src/app.ts",
+    "build": "npx rollup -c",
+    "init-rag": "tsx ./src/scripts/initialize-rag.ts",
+    "populate-kb": "tsx ./src/scripts/populate-knowledge-base.ts"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@builderbot/bot": "1.2.9",
+    "@builderbot/database-postgres": "1.2.9",
+    "@builderbot/provider-baileys": "1.2.9",
+    "@llamaindex/chroma": "0.0.33",
+    "@llamaindex/ollama": "0.1.20",
+    "chromadb": "3.0.11",
+    "dotenv": "^17.2.1",
+    "langchain": "0.3.30",
+    "llamaindex": "0.11.26",
+    "node-cron": "^4.2.1",
+    "ollama": "0.5.17",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.15.5",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.52.0",
+    "eslint-plugin-builderbot": "latest",
+    "nodemon": "^3.1.0",
+    "rollup": "^4.10.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
+>>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)

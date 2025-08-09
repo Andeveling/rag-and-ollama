@@ -1,1 +1,16 @@
+<<<<<<< HEAD
 <file upload>
+=======
+{
+    "watch": ["src"],
+    "ext": "ts",
+    "ignore": [
+      "**/*.test.ts",
+      "**/*.spec.ts"
+  ],
+    "delay": "3",
+    "execMap": {
+      "ts": "tsx"
+    }
+  }
+>>>>>>> 25a86dc (feat: Implement Ollama service for local LLM processing)
